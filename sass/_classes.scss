@@ -1,0 +1,41 @@
+.container {
+  width: 85vw;
+  margin: 0 auto;
+  padding: 5px 16px;
+}
+@media (min-width: $layout-breakpoint-small) {
+  .container {
+    width: 75vw;
+  }
+}
+span.primary,
+div.primary,
+p.primary {
+  background-color: $primary;
+  color: $white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+span.danger,
+p.danger,
+div.danger {
+  background-color: $danger;
+  color: $white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+span.info,
+p.info,
+div.info {
+  background-color: $info;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+span.success,
+p.success,
+div.success {
+  background-color: $success;
+  color: $white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
