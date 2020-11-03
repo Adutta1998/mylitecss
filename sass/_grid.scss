@@ -1,0 +1,20 @@
+$cols: 12;
+$max-wrapper-width: 1192px;
+$gutter-width: 20px;
+
+// Mixin
+.row {
+  display: flex;
+  flex-direction: row;
+}
+@mixin col($col) {
+  width: (($max-wrapper-width - $gutter-width * ($cols/$col - 1))/ ($cols/$col)) /
+    $max-wrapper-width * 100%;
+}
+
+// Loop to create the grid
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    @include col($i);
+  }
+}
