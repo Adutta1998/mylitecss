@@ -185,4 +185,62 @@ input[type="file"]::-webkit-file-upload-button {
           box-shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.col-1 {
+  width: 6.7953%;
+}
+
+.col-2 {
+  width: 15.26846%;
+}
+
+.col-3 {
+  width: 23.74161%;
+}
+
+.col-4 {
+  width: 32.21477%;
+}
+
+.col-5 {
+  width: 40.68792%;
+}
+
+.col-6 {
+  width: 49.16107%;
+}
+
+.col-7 {
+  width: 57.63423%;
+}
+
+.col-8 {
+  width: 66.10738%;
+}
+
+.col-9 {
+  width: 74.58054%;
+}
+
+.col-10 {
+  width: 83.05369%;
+}
+
+.col-11 {
+  width: 91.52685%;
+}
+
+.col-12 {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
